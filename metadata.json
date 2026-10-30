@@ -1,0 +1,11 @@
+{
+  "name": "Remix Remix Remix Remix Tsukuyomi Watch - The Samurai\u0027s Celestial Guide",
+  "description": "Japanese-inspired celestial astronomy console, stargazing honor calculator, lunar scroll tracker, and spirit lens.",
+  "requestFramePermissions": [
+    "geolocation",
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

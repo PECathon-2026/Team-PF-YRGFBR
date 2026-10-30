@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-serif-jp: 'Noto Serif JP', 'Cinzel', serif;
+    --font-mono-tech: 'Space Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-serif-jp);
+    background-color: #0a0b1e;
+    background-image: radial-gradient(ellipse 100% 80% at 50% 0%, #16183e 0%, #0d0f28 45%, #070817 100%);
+    background-attachment: fixed;
+    color: #e2e8f0;
+    min-height: 100vh;
+  }
+}
+
+.font-japanese {
+  font-family: 'Noto Serif JP', serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-mono-tech {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Leaflet map background & styling - accurate, crisp cartography */
+.sumie-map {
+  background: #090b22;
+}
+
+.sumie-map .leaflet-tile-pane {
+  /* Keep tiles crisp and accurate with authentic colors */
+  filter: none;
+}
+
+.leaflet-popup-content-wrapper {
+  background: rgba(14, 16, 46, 0.95) !important;
+  color: #e2e8f0 !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7) !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(14, 16, 46, 0.95) !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+}
+
+.leaflet-tooltip {
+  background: rgba(10, 12, 35, 0.92) !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(212, 175, 55, 0.3) !important;
+  border-radius: 6px !important;
+  font-family: var(--font-serif-jp) !important;
+  font-size: 11px !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6) !important;
+}
+
+.sumie-parchment-border {
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0 25px rgba(5, 6, 18, 0.9), inset 0 0 30px rgba(10, 11, 30, 0.7);
+}
+
+.gold-glow {
+  text-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+}
+
+.red-glow {
+  text-shadow: 0 0 12px rgba(196, 30, 58, 0.6);
+}
+
+.celestial-glow {
+  text-shadow: 0 0 14px rgba(129, 140, 248, 0.6);
+}
+
+/* Custom scrollbars with purplish night sky & gold accent */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #23254d;
+  border-radius: 3px;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}

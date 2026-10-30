@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Tsukuyomi Watch favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0a0b1e" />
+    </linearGradient>
+    <radialGradient id="moon" cx="35%" cy="28%" r="60%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="45%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d4af37" />
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)" />
+  <circle cx="64" cy="52" r="28" fill="url(#moon)" />
+  <circle cx="70" cy="48" r="21" fill="#0a0b1e" opacity="0.18" />
+  <path d="M28 98c18-16 33-24 56-24 16 0 28 4 40 12v12H28Z" fill="#c41e3a" opacity="0.9" />
+  <path d="M42 30c6 8 10 15 10 24 0 9-4 17-10 24" fill="none" stroke="#f8fafc" stroke-width="4" stroke-linecap="round" opacity="0.7" />
+  <path d="M76 30c-6 8-10 15-10 24 0 9 4 17 10 24" fill="none" stroke="#f8fafc" stroke-width="4" stroke-linecap="round" opacity="0.7" />
+</svg>
